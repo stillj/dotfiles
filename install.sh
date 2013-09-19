@@ -2,7 +2,7 @@ REPO_ROOT=~/code/dotfiles
 IGNORE_FILES=install.sh
 
 TMP_DIR=~/.dotfile-backup
-mkdir $TMP_DIR
+mkdir -p $TMP_DIR
 BACKUP_DIR=`mktemp -d $TMP_DIR/XXXXXX`
 
 echo "backing up to $BACKUP_DIR"

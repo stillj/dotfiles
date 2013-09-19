@@ -36,6 +36,7 @@ set autoindent
 set nowrap
 
 autocmd FileType make setlocal noexpandtab " tabs in Makefiles
+autocmd FileType ruby setlocal ts=2 sts=2 sw=2 " 2 space tabs in ruby
 
 """""""""""""""""""""""""
 " Remaps

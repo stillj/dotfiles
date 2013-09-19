@@ -8,7 +8,6 @@ set history=10000
 set wildmenu " bash style completion for files/buffers
 
 set number
-set cursorline " highlight current line
 set ruler " always display footer
 set nohlsearch " don't highlight search after it is over
 set incsearch " do highlight currently selected search term
